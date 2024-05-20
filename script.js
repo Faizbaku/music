@@ -45,10 +45,10 @@ const songs = [
         background: "linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%)"
     },
     {
-        name: "FREAK",
+        name: "ROR",
         artist: "BAKU",
         image: "img/20230802_171343.jpg",
-        src: "audio/DJ FREAK.mp3",
+        src: "audio/kece wak.mp3",
         background: "linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%)"
         
     }
