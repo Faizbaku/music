@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <title>Baku</title>
+</head>
+<body>
+    <center>
+        <div class="main" id="main">
+            <center>
+                <video autoplay muted loop id="background-video">
+                    <source src="video/cat-stray-the-slums-dark-cyberpunk-moewalls-com.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="top-bar">
+                    <div id="shift">
+                        <div class="tooltip">
+                            <button onclick="togg()" class="togg"><i class="fas fa-dot-circle"></i></button>
+                            <span class="tooltiptext">Light/Dark Mode</span>
+                        </div>
+                    </div>
+                    <div id="playlist">
+                        <button onclick="pop()" class="list"><i class="fas fa-music"></i></button>
+                    </div>
+                </div>
+                <div class="main-top">
+                    <h1>Baku</h1>
+                </div>
+                <br>
+                <div class="circle">
+                    <div class="roller">
+                        <span id="roller"></span>
+                        <span id="roller"></span>
+                        <span id="roller"></span>
+                        <span id="roller"></span>
+                        <img src="img/20230802_171343.jpg">
+                    </div>
+                </div>
+                <br>
+                <div class="name">
+                    <div class="song_name">DJ GA PAKE LAMA</div>
+                    <p class="artist">GTW</p>
+                </div>
+                <br><br>
+                <div class="control">
+                    <button class="back" id="back">
+                        <i class="fas fa-backward" id="bw_id"></i>
+                    </button>
+                    <button class="play" id="play">
+                        <i class="fas fa-play" id="pl_id"></i>
+                    </button>
+                    <button class="next" id="next">
+                        <i class="fas fa-forward" id="fw_id"></i>
+                    </button>
+                </div>
+                <br>
+                <div class="strtime">
+                    <div class="start_str" id="start">0:00</div>
+                    <div class="end_str" id="end">0:00</div>
+                </div>
+                <div class="pro" id="pro">
+                    <div class="bar" id="bar"></div>
+                </div>
+                <div id="popup" class="popup">
+                    <i class="fas fa-chevron-down" onclick="close_popup()"></i>
+                    <div class="list">
+                        <div class="popup-container"></div>
+                    </div>
+                </div>
+                <div class="patanhi"></div>
+                <audio id="audio-player"></audio>
+                <audio id="audio-player-2"></audio> <!-- Added audio tag -->
+            </center>
+        </div>
+    </center>
+    <script src="script.js"></script>
+</body>
+</html>
