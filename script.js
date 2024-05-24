@@ -41,7 +41,7 @@ const songs = [
         name: "KEMARIN KUCINTA",
         artist: "BAKU",
         image: "img/20230802_171343.jpg",
-        src: "audio/DJ KEMARIN KUCINTA.mp3",
+        src: "audio/dola.mp3",
         background: "linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%)"
     },
     {
